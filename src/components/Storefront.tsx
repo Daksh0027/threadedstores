@@ -19,7 +19,7 @@ import ProductModal from '@/components/ProductModal';
 import { PRODUCTS, formatINR, type Product } from '@/data/products';
 
 const HERO_IMG = '/images/DEMO/customer-crochet-product-photo.jpg';
-const ABOUT_IMG = '/images/DEMO/striped-crochet-scarf-detail.jpg';
+const ABOUT_IMG = 'https://images.pexels.com/photos/3945641/pexels-photo-3945641.jpeg?auto=compress&cs=tinysrgb&h=650&w=940';
 const CATEGORY_IMGS: Record<string, string> = {
   Bags: '/images/DEMO/crochet-rose-necklace-display.jpg',
   Pouches: '/images/DEMO/orange-granny-square-crochet-pouch.webp',
@@ -303,7 +303,7 @@ export default function Storefront() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-24 grid sm:grid-cols-2 gap-10 sm:gap-16 items-center">
             <img
               src={ABOUT_IMG}
-              alt="Handmade striped crochet scarf beside a ball of yarn"
+              alt="Hands crocheting with a hook, showing the handmade craft process"
               loading="lazy"
               className="rounded-2xl w-full aspect-[4/3] object-cover shadow-md"
             />
