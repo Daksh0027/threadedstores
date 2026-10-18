@@ -32,7 +32,7 @@ export const PRODUCTS: Product[] = [
     name: 'Monarch Butterfly Top',
     price: 2499,
     category: 'Wearables',
-    image: 'https://images.pexels.com/photos/13574113/pexels-photo-13574113.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/DEMO/embroidered-garment-detail.jpg',
     description:
       'Our signature piece. A hand-crocheted butterfly top with wing-shaped sleeves, made to order in your size and colour. Every stitch is placed by hand — no two are ever identical.',
     rating: 4.9,
@@ -45,7 +45,7 @@ export const PRODUCTS: Product[] = [
     name: 'Eternal Rose Bouquet',
     price: 1299,
     category: 'Flowers & Plushies',
-    image: 'https://images.pexels.com/photos/20269075/pexels-photo-20269075.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/DEMO/crochet-flower-bouquet-in-hand.jpg',
     description:
       'A bouquet that never wilts. Handmade crochet roses wrapped and ready to gift — perfect for birthdays, anniversaries, or just because. Pick your colours in the customization note.',
     rating: 5.0,
@@ -58,7 +58,7 @@ export const PRODUCTS: Product[] = [
     name: 'Bow Mesh Shoulder Bag',
     price: 1599,
     category: 'Bags',
-    image: 'https://images.pexels.com/photos/9393758/pexels-photo-9393758.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/DEMO/buttoned-burgundy-crochet-bag.jpg',
     description:
       'A soft, structured shoulder bag crocheted in breathable cotton mesh with a detachable bow charm. Fits your phone, wallet, and a little bit of sunshine.',
     rating: 4.8,
@@ -72,7 +72,7 @@ export const PRODUCTS: Product[] = [
     price: 1899,
     compareAt: 2299,
     category: 'Bags',
-    image: 'https://images.pexels.com/photos/30224898/pexels-photo-30224898.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/DEMO/crochet-sunflower-and-bag-display.jpg',
     description:
       'Roomy everyday tote with hand-embroidered floral details. Strong enough for books, pretty enough for brunch.',
     rating: 4.7,
@@ -84,7 +84,7 @@ export const PRODUCTS: Product[] = [
     name: 'Mini Crochet Crossbody',
     price: 1399,
     category: 'Bags',
-    image: 'https://images.pexels.com/photos/33207480/pexels-photo-33207480.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/DEMO/orange-granny-square-crochet-pouch.webp',
     description:
       'Light as air, cute as a button. A mini crossbody for days when you only need the essentials.',
     rating: 4.7,
@@ -96,7 +96,7 @@ export const PRODUCTS: Product[] = [
     name: 'Daisy Coin Pouch',
     price: 649,
     category: 'Pouches',
-    image: 'https://images.pexels.com/photos/4856502/pexels-photo-4856502.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/DEMO/embroidered-garment-detail.jpg',
     description:
       'A snug little pouch for coins, earphones, and lip balm — finished with a hand-stitched daisy. Cute, soft, and one of a kind.',
     rating: 4.8,
@@ -108,7 +108,7 @@ export const PRODUCTS: Product[] = [
     name: 'Smiley Zip Pouch',
     price: 749,
     category: 'Pouches',
-    image: 'https://images.pexels.com/photos/36644646/pexels-photo-36644646.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/DEMO/crochet-rose-necklace-display.jpg',
     description:
       'A cheerful zip pouch that makes you smile every time you reach for it. Great as a little gift or a treat-your-own.',
     rating: 4.7,
@@ -120,7 +120,7 @@ export const PRODUCTS: Product[] = [
     name: 'Crochet Charm Keychain',
     price: 399,
     category: 'Charms',
-    image: 'https://images.pexels.com/photos/38634279/pexels-photo-38634279.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/DEMO/red-crochet-heart-keychain.webp',
     description:
       'Tiny handmade charms for your keys, bag, or pencil case. Mix and match — collect them all.',
     rating: 4.7,
@@ -132,7 +132,7 @@ export const PRODUCTS: Product[] = [
     name: 'Daisy Flower Bookmark',
     price: 349,
     category: 'Charms',
-    image: 'https://images.pexels.com/photos/35155955/pexels-photo-35155955.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/DEMO/red-crochet-rose-pendant-detail.jpg',
     description:
       'Mark your page with a hand-crocheted daisy. A tiny, thoughtful gift for every bookworm in your life.',
     rating: 4.8,
@@ -143,7 +143,7 @@ export const PRODUCTS: Product[] = [
     name: 'Chick Rearview Charm',
     price: 449,
     category: 'Charms',
-    image: 'https://images.pexels.com/photos/37508797/pexels-photo-37508797.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/DEMO/purple-crochet-neckties.jpg',
     description:
       'A sunny little crochet chick to keep you company on every drive. Also adorable hung on bags and mirrors.',
     rating: 4.8,
@@ -155,7 +155,7 @@ export const PRODUCTS: Product[] = [
     name: 'Crochet Sunflowers',
     price: 899,
     category: 'Flowers & Plushies',
-    image: 'https://images.pexels.com/photos/18692008/pexels-photo-18692008.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/DEMO/crochet-sunflower-bouquet.jpg',
     description:
       'A little vase of sunshine. Handmade crochet sunflowers on flexible stems — arrange them once, smile forever. Sold individually or as a set of three.',
     rating: 4.9,
@@ -167,7 +167,7 @@ export const PRODUCTS: Product[] = [
     name: 'Kitty Amigurumi Plush',
     price: 999,
     category: 'Flowers & Plushies',
-    image: 'https://images.pexels.com/photos/38724016/pexels-photo-38724016.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/DEMO/potted-crochet-rose-in-hand.jpg',
     description:
       'A pocket-sized crochet companion, stuffed to be perfectly squishable. Choose from grey, orange, or cream.',
     rating: 4.9,
@@ -180,7 +180,7 @@ export const PRODUCTS: Product[] = [
     name: 'Bunny Amigurumi',
     price: 1199,
     category: 'Flowers & Plushies',
-    image: 'https://images.pexels.com/photos/16228950/pexels-photo-16228950.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/DEMO/potted-pink-crochet-roses.jpg',
     description:
       'Soft, huggable, and stitched with love. Our bunny plush is a nursery favourite and gift-box ready.',
     rating: 4.9,
@@ -192,7 +192,7 @@ export const PRODUCTS: Product[] = [
     name: 'Tiny Critter Plush',
     price: 849,
     category: 'Flowers & Plushies',
-    image: 'https://images.pexels.com/photos/10585144/pexels-photo-10585144.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/DEMO/twin-potted-crochet-sunflowers.jpg',
     description:
       'Small enough for a pocket, soft enough for a nap. Hand-crocheted critters in seasonal colours.',
     rating: 4.8,

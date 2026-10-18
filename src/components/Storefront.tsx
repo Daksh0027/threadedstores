@@ -18,20 +18,14 @@ import CartDrawer, { type CartItem } from '@/components/CartDrawer';
 import ProductModal from '@/components/ProductModal';
 import { PRODUCTS, formatINR, type Product } from '@/data/products';
 
-const HERO_IMG =
-  'https://d2iai535y0ceb2.cloudfront.net/img/6ab60c8135eaf519bab040a3/v1/512.webp';
-const ABOUT_IMG =
-  'https://images.pexels.com/photos/38649771/pexels-photo-38649771.jpeg?auto=compress&cs=tinysrgb&w=1200';
+const HERO_IMG = '/images/DEMO/customer-crochet-product-photo.jpg';
+const ABOUT_IMG = '/images/DEMO/pink-crochet-brand-emblem-01.jpg';
 const CATEGORY_IMGS: Record<string, string> = {
-  Bags: 'https://images.pexels.com/photos/9393758/pexels-photo-9393758.jpeg?auto=compress&cs=tinysrgb&w=800',
-  Pouches:
-    'https://images.pexels.com/photos/4856502/pexels-photo-4856502.jpeg?auto=compress&cs=tinysrgb&w=800',
-  Charms:
-    'https://images.pexels.com/photos/38634279/pexels-photo-38634279.jpeg?auto=compress&cs=tinysrgb&w=800',
-  Wearables:
-    'https://images.pexels.com/photos/13574113/pexels-photo-13574113.jpeg?auto=compress&cs=tinysrgb&w=800',
-  'Flowers & Plushies':
-    'https://images.pexels.com/photos/20269075/pexels-photo-20269075.jpeg?auto=compress&cs=tinysrgb&w=800',
+  Bags: '/images/DEMO/buttoned-burgundy-crochet-bag.jpg',
+  Pouches: '/images/DEMO/orange-granny-square-crochet-pouch.webp',
+  Charms: '/images/DEMO/red-crochet-heart-keychain.webp',
+  Wearables: '/images/DEMO/embroidered-garment-detail.jpg',
+  'Flowers & Plushies': '/images/DEMO/crochet-rose-necklace-display.jpg',
 };
 
 const REVIEWS = [

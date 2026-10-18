@@ -21,7 +21,7 @@ export default function Header({ onNav, onCart, cartCount }: Props) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         <button onClick={() => onNav('home')} className="flex items-center gap-2.5 group">
           <img
-            src="/images/image.png"
+            src="/images/DEMO/threaded-treasures-logo-01.jpg"
             alt="Threaded Treasures logo"
             className="h-11 w-auto rounded-full ring-1 ring-rose-200/70 bg-white shadow-sm group-hover:ring-rose-300 transition-shadow"
           />
