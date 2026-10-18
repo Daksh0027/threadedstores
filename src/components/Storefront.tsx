@@ -53,7 +53,7 @@ const FAQS = [
   },
   {
     q: 'Do you ship across India?',
-    a: 'Yes — we ship pan-India from Mumbai, and 150+ orders have already made their way to happy customers.',
+    a: 'Yes — we ship pan-India from Mumbai, and hundreds of orders have already made their way to happy customers.',
   },
   {
     q: 'Can I customise my order?',
@@ -183,7 +183,7 @@ export default function Storefront() {
                     <Star key={i} size={14} fill="currentColor" />
                   ))}
                 </span>
-                875 followers · 150+ orders shipped
+                875 followers · hundreds of orders shipped
               </p>
             </div>
             <div className="relative fade-up delay-2">
@@ -315,8 +315,8 @@ export default function Storefront() {
               <p className="mt-5 text-stone-600 leading-relaxed">
                 Threaded Treasures began with a single crochet hook and a love for making things by
                 hand. What started as gifts for friends grew into a little studio in Mumbai that has
-                shipped over 150 orders — butterfly tops, bouquets that never wilt, bags, keychains
-                and hampers — each one stitched slowly, never rushed.
+                studio in Mumbai that has shipped hundreds of orders — butterfly tops, bouquets that never
+                wilt, bags, keychains and hampers — each one stitched slowly, never rushed.
               </p>
               <p className="mt-4 text-stone-600 leading-relaxed">
                 When you order from us, you&apos;re not buying from a factory. You&apos;re supporting
@@ -461,7 +461,7 @@ export default function Storefront() {
                 <MapPin size={15} /> Mumbai, India
               </li>
               <li className="flex items-center gap-2">
-                <Package size={15} /> 150+ orders shipped
+                <Package size={15} /> Hundreds of orders shipped
               </li>
             </ul>
           </div>
