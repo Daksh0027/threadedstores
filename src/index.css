@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    line-height: 1.2;
+  }
+  body {
+    @apply antialiased;
+  }
+  ::selection {
+    @apply bg-rose-200 text-rose-900;
+  }
+}
+
+@layer utilities {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.delay-1 {
+  animation-delay: 0.1s;
+}
+.delay-2 {
+  animation-delay: 0.2s;
+}
+.delay-3 {
+  animation-delay: 0.3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-up,
+  .delay-1,
+  .delay-2,
+  .delay-3 {
+    animation: none;
+  }
+}
+
