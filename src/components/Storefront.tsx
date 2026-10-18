@@ -19,30 +19,30 @@ import ProductModal from '@/components/ProductModal';
 import { PRODUCTS, formatINR, type Product } from '@/data/products';
 
 const HERO_IMG = '/images/DEMO/customer-crochet-product-photo.jpg';
-const ABOUT_IMG = '/images/DEMO/pink-crochet-brand-emblem-01.jpg';
+const ABOUT_IMG = '/images/DEMO/multicolor-crochet-flower-bouquet.jpg';
 const CATEGORY_IMGS: Record<string, string> = {
-  Bags: '/images/DEMO/buttoned-burgundy-crochet-bag.jpg',
+  Bags: '/images/DEMO/crochet-rose-necklace-display.jpg',
   Pouches: '/images/DEMO/orange-granny-square-crochet-pouch.webp',
   Charms: '/images/DEMO/red-crochet-heart-keychain.webp',
   Wearables: '/images/DEMO/embroidered-garment-detail.jpg',
-  'Flowers & Plushies': '/images/DEMO/crochet-rose-necklace-display.jpg',
+  'Flowers & Plushies': '/images/DEMO/crochet-sunflower-bouquet.jpg',
 };
 
 const REVIEWS = [
   {
-    text: 'The butterfly top is even prettier in person. The stitching is so neat and it fits perfectly. Worth every rupee!',
+    text: 'The rose handbag is even prettier in person. The shaping is so neat and it photographs beautifully. Worth every rupee!',
     name: 'Ananya S.',
-    item: 'Monarch Butterfly Top',
+    item: 'Eternal Rose Handbag',
   },
   {
-    text: 'Ordered the rose bouquet for my mom’s birthday and she hasn’t stopped showing it off. Beautifully made and packed with so much care.',
+    text: 'Ordered the sunflower bouquet for my mom’s birthday and she hasn’t stopped showing it off. Beautifully made and packed with so much care.',
     name: 'Rhea M.',
-    item: 'Eternal Rose Bouquet',
+    item: 'Sunflower Kraft Bouquet',
   },
   {
-    text: 'Third order from Threaded Treasures and every single piece is adorable. The little keychains are my favourite thing to gift.',
+    text: 'Third order from Threaded Treasures and every single piece is adorable. The little bow clips are my favourite thing to gift.',
     name: 'Priya K.',
-    item: 'Crochet Charm Keychain',
+    item: 'Bow Hair Clips',
   },
 ];
 
