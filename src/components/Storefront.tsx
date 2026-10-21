@@ -12,6 +12,7 @@ import {
   MessageCircle,
   MapPin,
 } from 'lucide-react';
+
 import Header from '@/components/Header';
 import Shop from '@/components/Shop';
 import CartDrawer, { type CartItem } from '@/components/CartDrawer';
@@ -79,7 +80,6 @@ export default function Storefront() {
   const [cart, setCart] = useState<CartItem[]>([]);
   const [cartOpen, setCartOpen] = useState(false);
   const [active, setActive] = useState<Product | null>(null);
-  const [mobileMenu, setMobileMenu] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const addToCart = (item: CartItem) => {
@@ -105,42 +105,14 @@ export default function Storefront() {
     alert('Prototype: checkout will connect to payments in the next step.');
   };
 
-  const scrollTo = (id: string) => {
-    setMobileMenu(false);
+  const scrollTo = (id: string) =>
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-  };
 
   const bestsellers = PRODUCTS.filter((p) => p.bestseller);
 
   return (
     <div className="min-h-screen bg-cream text-stone-800">
       <Header onNav={scrollTo} onCart={() => setCartOpen(true)} cartCount={cart.reduce((s, i) => s + i.qty, 0)} />
-
-      {/* Mobile menu overlay */}
-      {mobileMenu && (
-        <div className="fixed inset-0 z-40 sm:hidden">
-          <div className="absolute inset-0 bg-stone-900/40" onClick={() => setMobileMenu(false)} />
-          <div className="absolute inset-x-4 top-24 bg-cream rounded-2xl shadow-xl p-6 flex flex-col gap-4">
-            {['shop', 'about', 'faq'].map((id) => (
-              <button
-                key={id}
-                onClick={() => scrollTo(id)}
-                className="text-left font-display text-lg capitalize text-stone-800"
-              >
-                {id}
-              </button>
-            ))}
-            <a
-              href="https://instagram.com/threadedtreasures.co"
-              target="_blank"
-              rel="noreferrer"
-              className="flex items-center gap-2 text-sm text-rose-800 pt-2 border-t border-stone-200"
-            >
-              <Instagram size={16} /> @threadedtreasures.co
-            </a>
-          </div>
-        </div>
-      )}
 
       <main className="pt-28 sm:pt-[104px]">
         {/* Hero */}
